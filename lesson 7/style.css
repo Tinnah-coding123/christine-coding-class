@@ -1,0 +1,13 @@
+h3{
+    color: blueviolet;
+}
+
+/*applying style for id selector*/
+#id1{
+    color: darkgreen;
+}
+
+/*applying style for class selector*/
+.class1{
+    color: fuchsia;
+}
