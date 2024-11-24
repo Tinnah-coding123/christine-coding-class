@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>animation</title>
+
+        <style>
+            /*the animation code*/
+            @keyframes animation1 {
+                0%    {background-color: chartreuse;}
+                20%  {background-color: cyan;}
+                40%  {background-color: dodgerblue;}
+                60% {background-color: hotpink;}
+                80% {background-color: indigo;}
+                100% {background-color: orangered;}
+            }
+
+            /*applying animation to the element*/
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: slategray;
+                animation-name: animation1;
+                animation-duration: 5s;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        
+    </body>
+</html>
