@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>homework animation</title>
+
+        <style>
+            body{
+                background-color: lawngreen;
+            }
+            
+            /*the animation code*/
+            @keyframes animation2 {
+                0%  {background-color: blue;}
+                20%   {background-color: blueviolet;}
+                40%    {background-color: cadetblue;} 
+                60%     {background-color: aqua;} 
+                80%     {background-color: darkslateblue;}
+                100%    {background-color: purple;}        
+            }
+        
+            /*applying animation to the element*/
+            div{
+                width: 250px;
+                height: 250px;
+                background-color: darkorange;
+                animation-name: animation2;
+                animation-duration: 10s;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div></div>
+        
+    </body>
+</html>
