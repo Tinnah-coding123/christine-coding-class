@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    color: mediumaquamarine;
+}
+
+/*child selector*/
+ul > li{
+    font-weight: bolder;
+}
+
+/*:hover pseudo-class*/
+ul li:hover{
+    color: yellow;
+}
+
+/*nth-child(n) pseudo-class*/
+ul li :nth-child(3){
+    background-color: lime;
+}
+
+/*::before pseudo-element*/
+ul li::before{
+    content: ;
+}
+
+/*sibling selector*/
+h1, p{
+    background-color: lightcoral;
+}
+
+/*attribute selector*/
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+/*::after pseudo-element*/
+a::after{
+    content: ;
+}
+
