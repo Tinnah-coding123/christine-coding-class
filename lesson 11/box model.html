@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>box model</title>
+
+        <!--this is internal css-->
+        <style>
+            #example1{
+                width: 120px;
+                background-color: aquamarine;
+                padding-top: 0;
+                padding-right: 10px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                margin: 0;
+                float: left;
+            }
+
+            #example2{
+                width: 120px;
+                background-color: chartreuse;
+                padding: 80px; /*one number applied to all of the padding (top, right, bottom, left)*/
+                border-width: 5px;
+                border-style: solid;
+                border-color: darkturquoise;
+                margin: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>box model example</h1>
+        
+        <hr>
+
+        <p id="example1">this is example 1</p>
+
+        <p id="example2">this is example 2</p>
+    </body>
+</html>
