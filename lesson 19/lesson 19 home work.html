@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lesson 19 homework</title>
+    </head>
+    <body>
+        <h1>JavaScript variables</h1>
+        <p>simple calculator of two numbers</p>
+
+        <p id="addition"></p>
+        <p id="subtraction"></p>
+        <p id="multiplication"></p>
+        <p id="division"></p>
+        
+        <script>
+            var fnum = 5;
+            var snum = 2;
+            var sum = fnum+snum;
+            var sub = fnum-snum;
+
+            document.getElementById("addition").innerHTML = "the total sum= "+sum;
+            document.getElementById("subtraction").innerHTML = "the subtraction= "+sub;
+        </script>
+    </body>
+</html>
