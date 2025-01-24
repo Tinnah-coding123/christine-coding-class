@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lesson 20 homework</title>
+    </head>
+    <body>
+        <p>
+            a function can only access variables 
+            that is defined inside the function itself
+        </p>
+        
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+
+        <button onclick="function1()">click me</button>
+
+        <script>
+            var a=3;
+
+            function function1() {
+                var b=5;
+                document.getElementById("p1").innerHTML = "a= " + a + ", b=" + b;
+            }
+
+            document.getElementById("p2").innerHTML = "b=" + b;
+            </script>
+        
+    </body>
+</html>
